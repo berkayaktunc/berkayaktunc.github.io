@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>All Categories - Berkay Aktunç</title><meta name="Description" content="This is my KeepIt site"><meta property="og:url" content="http://localhost:1313/categories/">
+        <title>All Categories - Berkay Aktunç</title><meta name="Description" content="Berkay Aktunç&#39;un kişisel blog sitesi"><meta property="og:url" content="http://localhost:1313/categories/">
   <meta property="og:site_name" content="Berkay Aktunç">
   <meta property="og:title" content="Categories">
-  <meta property="og:description" content="This is my KeepIt site">
-  <meta property="og:locale" content="en_us">
+  <meta property="og:description" content="Berkay Aktunç&#39;un kişisel blog sitesi">
+  <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Categories">
-  <meta name="twitter:description" content="This is my KeepIt site">
-      <meta name="twitter:site" content="@xxx">
-<meta name="application-name" content="My KeepIt site22222">
-<meta name="apple-mobile-web-app-title" content="My KeepIt site22222"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+  <meta name="twitter:description" content="Berkay Aktunç&#39;un kişisel blog sitesi">
+<meta name="application-name" content="Berkay Aktunç">
+<meta name="apple-mobile-web-app-title" content="Berkay Aktunç"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/categories/" /><link rel="alternate" href="/categories/index.xml" type="application/rss+xml" title="Berkay Aktunç">
     <link rel="feed" href="/categories/index.xml" type="application/rss+xml" title="Berkay Aktunç"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"></head>
@@ -28,8 +27,10 @@
             <a href="/" title="Berkay Aktunç">Berkay Aktunç</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item active" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
-                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item active" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="Select Language">English<i class="fas fa-chevron-right fa-fw" aria-hidden="true"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/categories/" selected>English</option><option value="/tr/categories/">Türkçe</option></select>
+                    </a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Ara..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
                             <i class="fas fa-search fa-fw" aria-hidden="true"></i>
                         </a>
@@ -57,7 +58,7 @@
         </div>
         <div class="menu" id="menu-mobile"><div class="search-wrapper">
                     <div class="search mobile" id="search-mobile">
-                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <input type="text" placeholder="Ara..." id="search-input-mobile">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
                             <i class="fas fa-search fa-fw" aria-hidden="true"></i>
                         </a>
@@ -71,9 +72,11 @@
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         Cancel
                     </a>
-                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a></div>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">English<i class="fas fa-chevron-right fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/categories/" selected>English</option><option value="/tr/categories/">Türkçe</option></select>
+                </a></div>
     </div>
 </header><div class="search-dropdown desktop">
         <div id="search-dropdown-desktop"></div>
@@ -84,37 +87,25 @@
                 <div class="container"><div class="page archive"><h2 class="single-title animate__animated animate__pulse animate__faster">All Categories</h2><div class="categories-card"><div class="card-item">
                         <div class="card-item-wrapper">
                             <h3 class="card-item-title">
-                                <a href="/categories/documentation/">
-                                    <i class="far fa-folder fa-fw" aria-hidden="true"></i>&nbsp;Documentation
+                                <a href="/categories/genel/">
+                                    <i class="far fa-folder fa-fw" aria-hidden="true"></i>&nbsp;Genel
                                 </a>
                             </h3><article class="archive-item">
-                                    <a href="/posts/theme-documentation-basics/" class="archive-item-link">Theme Documentation - Basics</a>
-                                </article><article class="archive-item">
-                                    <a href="/posts/theme-documentation-content/" class="archive-item-link">Theme Documentation - Content</a>
-                                </article><article class="archive-item">
-                                    <a href="/posts/theme-documentation-built-in-shortcodes/" class="archive-item-link">Theme Documentation - Built-in Shortcodes</a>
-                                </article><article class="archive-item">
-                                    <a href="/posts/theme-documentation-extended-shortcodes/" class="archive-item-link">Theme Documentation - Extended Shortcodes</a>
-                                </article><article class="archive-item">
-                                    <a href="/posts/theme-documentation-mermaid-shortcode/" class="archive-item-link">Theme Documentation - mermaid Shortcode</a>
-                                </article><span class="more-post">
-                                    <a href="/categories/documentation/" class="more-single-link">More >></a>
-                                </span></div>
+                                    <a href="/posts/welcome/" class="archive-item-link">Welcome!!</a>
+                                </article></div>
                     </div><div class="card-item">
                         <div class="card-item-wrapper">
                             <h3 class="card-item-title">
-                                <a href="/categories/markdown/">
-                                    <i class="far fa-folder fa-fw" aria-hidden="true"></i>&nbsp;Markdown
+                                <a href="/categories/general/">
+                                    <i class="far fa-folder fa-fw" aria-hidden="true"></i>&nbsp;General
                                 </a>
                             </h3><article class="archive-item">
-                                    <a href="/posts/basic-markdown-syntax/" class="archive-item-link">Basic Markdown Syntax</a>
-                                </article><article class="archive-item">
-                                    <a href="/posts/emoji-support/" class="archive-item-link">Emoji Support</a>
+                                    <a href="/posts/test/" class="archive-item-link">Test Post</a>
                                 </article></div>
                     </div></div></div></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo 0.150.1">Hugo</a> | Theme - <a href="https://github.com/Fastbyte01/KeepIt" target="_blank" rel="noopener noreferrer" title="KeepIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> KeepIt</a>
-                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2024 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
         </div>
     </footer></div>
 
@@ -123,5 +114,5 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="/css/custom.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Berkay Aktunç</title>
+    <link>http://localhost:1313/tr/tags/test/</link>
+    <description>Recent content in Test on Berkay Aktunç</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tr/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Yazısı</title>
+      <link>http://localhost:1313/tr/posts/test/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tr/posts/test/</guid>
+      <description>&lt;h1 id=&#34;test-yazısı&#34;&gt;Test Yazısı&lt;/h1&gt;&#xA;&lt;p&gt;Bu İngilizce test yazısının Türkçe çevirisidir. Bu, çok dilli kurulumun dosya uzantıları ile nasıl çalıştığını gösterir.&lt;/p&gt;&#xA;&lt;h2 id=&#34;özellikler&#34;&gt;Özellikler&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Türkçe yazılmış&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;.tr.md&lt;/code&gt; uzantısı kullanıyor&lt;/li&gt;&#xA;&lt;li&gt;Ana dosya &lt;code&gt;.md&lt;/code&gt; olduğunda otomatik olarak çeviri olarak tanınır&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;nasıl-çalışır&#34;&gt;Nasıl Çalışır&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ana yazınızı &lt;code&gt;dosyaadi.md&lt;/code&gt; olarak oluşturun&lt;/li&gt;&#xA;&lt;li&gt;Çevirileri &lt;code&gt;dosyaadi.tr.md&lt;/code&gt;, &lt;code&gt;dosyaadi.fr.md&lt;/code&gt; vb. olarak oluşturun&lt;/li&gt;&#xA;&lt;li&gt;Hugo otomatik olarak dil değiştirmeyi halleder&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

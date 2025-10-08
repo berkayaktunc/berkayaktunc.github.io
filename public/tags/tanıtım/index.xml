@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tanıtım on Berkay Aktunç</title>
+    <link>http://localhost:1313/tags/tan%C4%B1t%C4%B1m/</link>
+    <description>Recent content in Tanıtım on Berkay Aktunç</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Sep 2025 02:36:33 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tan%C4%B1t%C4%B1m/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome!!</title>
+      <link>http://localhost:1313/posts/welcome/</link>
+      <pubDate>Tue, 30 Sep 2025 02:36:33 +0300</pubDate>
+      <guid>http://localhost:1313/posts/welcome/</guid>
+      <description>&lt;h1 id=&#34;welcome&#34;&gt;Welcome!&lt;/h1&gt;&#xA;&lt;p&gt;Hello! I&amp;rsquo;m &lt;strong&gt;Berkay Aktunç&lt;/strong&gt; and this is my personal blog. Here I will share articles about software development, technology, programming and personal experiences with you.&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Software Developer&lt;/li&gt;&#xA;&lt;li&gt;Technology Enthusiast&lt;/li&gt;&#xA;&lt;li&gt;Always eager to learn&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-youll-find-here&#34;&gt;What You&amp;rsquo;ll Find Here?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Articles about programming languages and technologies&lt;/li&gt;&#xA;&lt;li&gt;My project experiences&lt;/li&gt;&#xA;&lt;li&gt;Technology news and comments&lt;/li&gt;&#xA;&lt;li&gt;Personal development notes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can follow my social media accounts or use my RSS feed to follow my blog.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

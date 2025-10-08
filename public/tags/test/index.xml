@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Berkay Aktunç</title>
+    <link>http://localhost:1313/tags/test/</link>
+    <description>Recent content in Test on Berkay Aktunç</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Post</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>&lt;h1 id=&#34;test-post&#34;&gt;Test Post&lt;/h1&gt;&#xA;&lt;p&gt;This is a test post written in English. This demonstrates how the multilingual setup works with file extensions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Written in English&lt;/li&gt;&#xA;&lt;li&gt;Uses &lt;code&gt;.md&lt;/code&gt; extension&lt;/li&gt;&#xA;&lt;li&gt;Will be automatically translated when you create &lt;code&gt;.tr.md&lt;/code&gt; version&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create your main post as &lt;code&gt;filename.md&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Create translations as &lt;code&gt;filename.tr.md&lt;/code&gt;, &lt;code&gt;filename.fr.md&lt;/code&gt;, etc.&lt;/li&gt;&#xA;&lt;li&gt;Hugo automatically handles the language switching&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

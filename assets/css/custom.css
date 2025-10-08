@@ -1,0 +1,18 @@
+/* Custom Avatar Size */
+.home .home-profile .home-avatar img {
+  width: 12rem !important; /* 8rem'den 12rem'e çıkarıldı */
+  height: 12rem !important; /* Yükseklik de eklendi */
+  object-fit: cover; /* Resmin oranını korur */
+}
+
+/* Posts sayfasında da avatar boyutunu büyüt */
+.home[data-home=posts] .home-avatar img {
+  width: 23rem !important; /* 6rem'den 10rem'e çıkarıldı */
+  height: 23rem !important;
+  object-fit: cover;
+}
+
+/* Avatar hover efekti için */
+.home .home-profile .home-avatar img:hover {
+  transform: translateY(-0.75rem) scale(1.05); /* Hafif büyütme efekti eklendi */
+}

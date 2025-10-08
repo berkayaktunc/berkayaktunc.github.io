@@ -1,0 +1,52 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tüm Yazılar - Berkay Aktunç</title>
+        <link>http://localhost:1313/tr/posts/</link>
+        <description>Tüm Yazılar | Berkay Aktunç</description>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Tue, 30 Sep 2025 02:36:33 &#43;0300</lastBuildDate><atom:link href="http://localhost:1313/tr/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Hoş Geldiniz!!</title>
+    <link>http://localhost:1313/tr/posts/welcome/</link>
+    <pubDate>Tue, 30 Sep 2025 02:36:33 &#43;0300</pubDate>
+    <author>Berkay Aktunç</author>
+    <guid>http://localhost:1313/tr/posts/welcome/</guid>
+    <description><![CDATA[<h1 id="hoş-geldiniz">Hoş Geldiniz!</h1>
+<p>Merhaba! Ben <strong>Berkay Aktunç</strong> ve bu benim kişisel blog sitem. Burada sizlerle yazılım geliştirme, teknoloji, programlama ve kişisel deneyimlerim hakkında yazılar paylaşacağım.</p>
+<h2 id="hakkımda">Hakkımda</h2>
+<ul>
+<li>Yazılım Geliştirici</li>
+<li>Teknoloji Meraklısı</li>
+<li>Sürekli öğrenmeye açık</li>
+</ul>
+<h2 id="bu-blogda-neler-bulacaksınız">Bu Blogda Neler Bulacaksınız?</h2>
+<ul>
+<li>Programlama dilleri ve teknolojiler hakkında yazılar</li>
+<li>Proje deneyimlerim</li>
+<li>Teknoloji haberleri ve yorumları</li>
+<li>Kişisel gelişim notları</li>
+</ul>
+<p>Blogumu takip etmek için sosyal medya hesaplarımı takip edebilir veya RSS feed&rsquo;imi kullanabilirsiniz.</p>
+<p>İyi okumalar! 🚀</p>]]></description>
+</item>
+<item>
+    <title>Test Yazısı</title>
+    <link>http://localhost:1313/tr/posts/test/</link>
+    <pubDate>Mon, 01 Jan 2024 00:00:00 &#43;0300</pubDate>
+    <author>Berkay Aktunç</author>
+    <guid>http://localhost:1313/tr/posts/test/</guid>
+    <description><![CDATA[<h1 id="test-yazısı">Test Yazısı</h1>
+<p>Bu İngilizce test yazısının Türkçe çevirisidir. Bu, çok dilli kurulumun dosya uzantıları ile nasıl çalıştığını gösterir.</p>
+<h2 id="özellikler">Özellikler</h2>
+<ul>
+<li>Türkçe yazılmış</li>
+<li><code>.tr.md</code> uzantısı kullanıyor</li>
+<li>Ana dosya <code>.md</code> olduğunda otomatik olarak çeviri olarak tanınır</li>
+</ul>
+<h2 id="nasıl-çalışır">Nasıl Çalışır</h2>
+<ol>
+<li>Ana yazınızı <code>dosyaadi.md</code> olarak oluşturun</li>
+<li>Çevirileri <code>dosyaadi.tr.md</code>, <code>dosyaadi.fr.md</code> vb. olarak oluşturun</li>
+<li>Hugo otomatik olarak dil değiştirmeyi halleder</li>
+</ol>]]></description>
+</item>
+</channel>
+</rss>
