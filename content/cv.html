@@ -1,0 +1,262 @@
++++
+date = 2024-01-01T00:00:00+03:00
+draft = false
+markup = "html"
++++
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  color: #111;
+}
+
+/* WRAPPER */
+.cv-wrapper {
+  max-width: 1300px;
+  margin: auto;
+  padding: 40px 50px;
+}
+
+/* GRID LAYOUT */
+.cv-main {
+  display: grid;
+  grid-template-columns: 50% 95%;
+  gap: 40px;
+}
+
+/* LEFT COLUMN */
+.cv-left img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 2px solid #ddd;
+}
+
+.cv-left h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.cv-skill-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+/* RIGHT COLUMN */
+.cv-entry {
+  margin-bottom: 26px;
+}
+
+.cv-entry-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cv-entry-date {
+  float: right;
+  font-size: 14px;
+  color: #666;
+}
+
+.cv-entry ul {
+  margin-top: 8px;
+  padding-left: 20px;
+  line-height: 1.45;
+}
+
+/* Last Update Text */
+.cv-last-update {
+  text-align:right;
+  font-size:12px;
+  color:#ddd;
+}
+
+/* DARK MODE SUPPORT (Hugo adds .dark to html/body) */
+body.dark .cv-entry-date,
+html.dark .cv-entry-date,
+body.dark .cv-last-update,
+html.dark .cv-last-update {
+  color: #ddd !important;
+}
+</style>
+
+
+
+<div class="cv-wrapper">
+
+<div class="cv-last-update">Last update: 04.2025</div>
+
+<div class="cv-main">
+
+<!-- LEFT -->
+<div class="cv-left">
+
+  <img src="/githubPP.png" alt="Berkay Aktunç">
+
+  <h1>Berkay AKTUNC</h1>
+
+  <p>📧 berkay.aktunc@gmail.com</p>
+  <p>📱 +90 505 124 07 88</p>
+  <p>💻 <a href="https://github.com/berkayaktunc" target="_blank">github.com/berkayaktunc</a></p>
+  <p>🔗 <a href="https://www.linkedin.com/in/berkayaktunc/" target="_blank">linkedin.com/in/berkayaktunc</a></p>
+
+  <div class="section-title">Languages</div>
+  <p>Turkish — Native</p>
+  <p>English — Proficient</p>
+
+  <div class="section-title">Certificates</div>
+  <ul>
+    <li>Solana Bootcamp</li>
+    <li>Solidity Bootcamp</li>
+    <li>Deep Learning</li>
+    <li>Transition to Web3</li>
+  </ul>
+
+  <div class="section-title">Skills</div>
+  <div class="cv-skill-row"><span>Linux</span><span>Advanced</span></div>
+  <div class="cv-skill-row"><span>Python</span><span>Advanced</span></div>
+  <div class="cv-skill-row"><span>Git</span><span>Intermediate</span></div>
+  <div class="cv-skill-row"><span>Go</span><span>Intermediate</span></div>
+  <div class="cv-skill-row"><span>C</span><span>Intermediate</span></div>
+  <div class="cv-skill-row"><span>C++</span><span>Intermediate</span></div>
+  <div class="cv-skill-row"><span>Docker</span><span>Intermediate</span></div>
+  <div class="cv-skill-row"><span>Solidity</span><span>Intermediate</span></div>
+  <div class="cv-skill-row"><span>Rust</span><span>Beginner</span></div>
+  <div class="cv-skill-row"><span>AWS</span><span>Beginner</span></div>
+
+  <div class="section-title">Activities</div>
+  <ul>
+    <li>Winner, T3 Entrepreneurship Program — METU NCC</li>
+    <li>Teknofest Rocket Competition — Electrical Lead</li>
+    <li>Student Assistant @ METU NCC (Algorithms & C)</li>
+  </ul>
+</div>
+
+
+
+<!-- RIGHT -->
+<div class="cv-right">
+
+<div class="section-title">Experience</div>
+
+<div class="cv-entry">
+  <div>
+    <span class="cv-entry-title"><a href="https://www.linkedin.com/company/collabrytr/" target="_blank">Software Developer — Collabry</a></span>
+    <span class="cv-entry-date">04.2025 – Present</span>
+  </div>
+  <ul>
+    <li>Developing backend & frontend systems</li>
+    <li>Product development, debugging, deployment</li>
+    <li>Building scalable solutions with cross-functional teams</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div>
+    <span class="cv-entry-title"><a href="https://www.linkedin.com/company/radiologics-webpage/" target="_blank">Full Stack Developer — Radiologics LTD ŞTI</a></span>
+    <span class="cv-entry-date">05.2023 – 10.2023</span>
+  </div>
+  <ul>
+    <li>C# backend</li>
+    <li>REST API development</li>
+    <li>PostgreSQL</li>
+    <li>Angular responsive UI</li>
+    <li>Unit testing</li>
+    <li>Agile collaboration</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div>
+    <span class="cv-entry-title"><a href="https://www.linkedin.com/company/amperinoauto/" target="_blank">Full Stack Developer — Amperino Automotive</a></span>
+    <span class="cv-entry-date">01.2021 – 10.2021</span>
+  </div>
+  <ul>
+    <li>Automotive app dev</li>
+    <li>CI/CD & Testbench Suite</li>
+    <li>Unity, Python, MicroC</li>
+    <li>Android (Java)</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div>
+    <span class="cv-entry-title"><a href="https://www.linkedin.com/company/setrastr" target="_blank">Co-Founder — Setras</a></span>
+    <span class="cv-entry-date">05.2018 – 06.2020</span>
+  </div>
+  <ul>
+    <li>Angular applications</li>
+    <li>Architecture decisions</li>
+    <li>Responsive UI</li>
+  </ul>
+</div>
+
+<div class="section-title">Projects</div>
+
+<div class="cv-entry">
+  <div>
+    <span class="cv-entry-title"><a href="https://github.com/berkayaktunc/rahibinden" target="_blank">Rahibinden — Marketplace</a></span>
+    <span class="cv-entry-date">04.2024</span>
+  </div>
+  <ul><li>Django marketplace w/ real-time chat</li></ul>
+</div>
+
+<div class="cv-entry">
+  <div>
+    <span class="cv-entry-title"><a href="https://github.com/berkayaktunc/pysomware" target="_blank">Pysomware</a></span>
+    <span class="cv-entry-date">07.2023</span>
+  </div>
+  <ul><li>Python encryption tool (Cryptography module)</li></ul>
+</div>
+
+<div class="cv-entry">
+  <div>
+    <span class="cv-entry-title"><a href="https://github.com/berkayaktunc/Solana-Bootcamp-Final-Project" target="_blank">Solana Review DApp</a></span>
+    <span class="cv-entry-date">02.2024</span>
+  </div>
+  <ul><li>Smart-contract review system (Solana)</li></ul>
+</div>
+
+<div class="cv-entry">
+  <div>
+    <span class="cv-entry-title">Cycar — Ride Pooling</span>
+    <span class="cv-entry-date">05.2019</span>
+  </div>
+  <ul><li>Python + ML + Flutter + Docker</li></ul>
+</div>
+
+<div class="section-title">Education</div>
+
+<div class="cv-entry">
+  <div>
+    <span class="cv-entry-title"><a href="https://www.metu.edu.tr/en" target="_blank">Middle East Technical University (METU)</a></span>
+    <span class="cv-entry-date">09.2024</span>
+  </div>
+  <p>Bachelor of Engineering — Computer Engineering</p>
+  <ul>
+    <li>IEEE METU NCC — Algorithms & C workshops</li>
+  </ul>
+</div>
+
+</div>
+</div>
+</div>
