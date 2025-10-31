@@ -27,14 +27,6 @@ defaultContentLanguage = 'en'
 [menu]
   [[menu.main]]
     weight = 1
-    identifier = "cv"
-    pre = ""
-    post = ""
-    name = "CV"
-    url = "/cv/"
-    title = ""
-  [[menu.main]]
-    weight = 2
     identifier = "posts"
     pre = ""
     post = ""
@@ -42,7 +34,7 @@ defaultContentLanguage = 'en'
     url = "/posts/"
     title = ""
   [[menu.main]]
-    weight = 3
+    weight = 2
     identifier = "tags"
     pre = ""
     post = ""
@@ -50,7 +42,7 @@ defaultContentLanguage = 'en'
     url = "/tags/"
     title = ""
   [[menu.main]]
-    weight = 4
+    weight = 3
     identifier = "categories"
     pre = ""
     post = ""
@@ -58,7 +50,7 @@ defaultContentLanguage = 'en'
     url = "/categories/"
     title = ""
   [[menu.main]]
-    weight = 5
+    weight = 4
     identifier = "about"
     pre = ""
     post = ""
