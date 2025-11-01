@@ -74,6 +74,15 @@
                     hreflang="en"
                     href="http://localhost:1313/posts/welcome/"
                     /></url><url>
+            <loc>http://localhost:1313/cv/</loc><lastmod>2024-01-01T00:00:00&#43;03:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="tr"
+                        href="http://localhost:1313/tr/cv/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/cv/"
+                    /></url><url>
             <loc>http://localhost:1313/about/</loc><lastmod>2024-01-01T00:00:00&#43;03:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="tr"

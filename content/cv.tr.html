@@ -1,0 +1,280 @@
++++
+date = 2024-01-01T00:00:00+03:00
+draft = false
+markup = "html"
++++
+
+<!-- Türkçeye çevrilmiş CV HTML -->
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    color: #111;
+  }
+  .cv-wrapper {
+    max-width: 1300px;
+    margin: auto;
+    padding: 40px 50px;
+  }
+  .cv-main {
+    display: grid;
+    grid-template-columns: 50% 95%;
+    gap: 40px;
+  }
+  @media (max-width: 900px) {
+    .cv-main {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    .cv-wrapper {
+      padding: 20px;
+    }
+    .cv-left img {
+      width: 180px;
+      height: 180px;
+    }
+  }
+  @media (max-width: 600px) {
+    .cv-left h1 {
+      font-size: 22px;
+    }
+    .section-title {
+      font-size: 12px;
+    }
+    .cv-wrapper {
+      padding: 15px;
+    }
+  }
+  .cv-left img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 2px solid #ddd;
+  }
+  .cv-left h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .section-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  .cv-skill-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  .cv-entry {
+    margin-bottom: 26px;
+  }
+  .cv-entry-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .cv-entry-date {
+    float: right;
+    font-size: 14px;
+    color: #666;
+  }
+  .cv-entry ul {
+    margin-top: 8px;
+    padding-left: 20px;
+    line-height: 1.45;
+  }
+  .cv-last-update {
+    text-align: right;
+    font-size: 12px;
+    color: #ddd;
+  }
+  body.dark .cv-entry-date,
+  html.dark .cv-entry-date,
+  body.dark .cv-last-update,
+  html.dark .cv-last-update {
+    color: #ddd !important;
+  }
+</style>
+
+<div class="cv-wrapper">
+  <div class="cv-last-update">Son güncelleme: 04.2025</div>
+  <div class="cv-main">
+    <div class="cv-left">
+      <img src="/githubPP.png" alt="Berkay Aktunç" />
+      <h1>Berkay AKTUNÇ</h1>
+      <p>📧 berkay.aktunc@gmail.com</p>
+      <p>📱 +90 505 124 07 88</p>
+      <p>
+        💻
+        <a href="https://github.com/berkayaktunc" target="_blank"
+          >github.com/berkayaktunc</a
+        >
+      </p>
+      <p>
+        🔗
+        <a href="https://www.linkedin.com/in/berkayaktunc/" target="_blank"
+          >linkedin.com/in/berkayaktunc</a
+        >
+      </p>
+      <div class="section-title">Diller</div>
+      <p>Türkçe — Ana Dil</p>
+      <p>İngilizce — İleri</p>
+      <div class="section-title">Sertifikalar</div>
+      <ul>
+        <li>Solana Bootcamp</li>
+        <li>Solidity Bootcamp</li>
+        <li>Derin Öğrenme</li>
+        <li>Web3'e Geçiş</li>
+      </ul>
+      <div class="section-title">Yetenekler</div>
+      <div class="cv-skill-row"><span>Linux</span><span>İleri</span></div>
+      <div class="cv-skill-row"><span>Python</span><span>İleri</span></div>
+      <div class="cv-skill-row"><span>Git</span><span>Orta</span></div>
+      <div class="cv-skill-row"><span>Go</span><span>Orta</span></div>
+      <div class="cv-skill-row"><span>C</span><span>Orta</span></div>
+      <div class="cv-skill-row"><span>C++</span><span>Orta</span></div>
+      <div class="cv-skill-row"><span>Docker</span><span>Orta</span></div>
+      <div class="cv-skill-row"><span>Solidity</span><span>Orta</span></div>
+      <div class="cv-skill-row"><span>Rust</span><span>Başlangıç</span></div>
+      <div class="cv-skill-row"><span>AWS</span><span>Başlangıç</span></div>
+      <div class="section-title">Aktiviteler</div>
+      <ul>
+        <li>T3 Girişimcilik Programı — Birincilik (ODTÜ KKK)</li>
+        <li>Teknofest Roket Yarışması — Elektronik Lideri</li>
+        <li>Öğrenci Asistanı @ ODTÜ KKK (Algoritmalar & C)</li>
+      </ul>
+    </div>
+
+    <div class="cv-right">
+      <div class="section-title">Deneyim</div>
+      <div class="cv-entry">
+        <span class="cv-entry-title"
+          ><a
+            href="https://www.linkedin.com/company/collabrytr/"
+            target="_blank"
+            >Yazılım Geliştirici — Collabry</a
+          ></span
+        >
+        <span class="cv-entry-date">04.2025 – Devam</span>
+        <ul>
+          <li>Backend ve frontend geliştirme</li>
+          <li>Ürün geliştirme, hata ayıklama, dağıtım</li>
+          <li>Çapraz ekiplerle ölçeklenebilir çözümler geliştirme</li>
+        </ul>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-title"
+          ><a
+            href="https://www.linkedin.com/company/radiologics-webpage/"
+            target="_blank"
+            >Full Stack Developer — Radiologics LTD ŞTİ</a
+          ></span
+        >
+        <span class="cv-entry-date">05.2023 – 10.2023</span>
+        <ul>
+          <li>C# backend geliştirme</li>
+          <li>REST API geliştirme</li>
+          <li>PostgreSQL</li>
+          <li>Angular ile responsive arayüz</li>
+          <li>Birim testler</li>
+          <li>Agile çalışma</li>
+        </ul>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-title"
+          ><a
+            href="https://www.linkedin.com/company/amperinoauto/"
+            target="_blank"
+            >Full Stack Developer — Amperino Automotive</a
+          ></span
+        >
+        <span class="cv-entry-date">01.2021 – 10.2021</span>
+        <ul>
+          <li>Otomotiv odaklı mobil uygulama geliştirme</li>
+          <li>CI/CD & Testbench Suite geliştirme</li>
+          <li>Unity, Python, MicroC</li>
+          <li>Android (Java)</li>
+        </ul>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-title"
+          ><a href="https://www.linkedin.com/company/setrastr" target="_blank"
+            >Kurucu Ortak — Setras</a
+          ></span
+        >
+        <span class="cv-entry-date">05.2018 – 06.2020</span>
+        <ul>
+          <li>Angular uygulamaları geliştirme</li>
+          <li>Mimari kararlar</li>
+          <li>Responsive UI</li>
+        </ul>
+      </div>
+      <div class="section-title">Projeler</div>
+      <div class="cv-entry">
+        <span class="cv-entry-title"
+          ><a href="https://github.com/berkayaktunc/rahibinden" target="_blank"
+            >Rahibinden — Pazar Yeri</a
+          ></span
+        >
+        <span class="cv-entry-date">04.2024</span>
+        <ul>
+          <li>Gerçek zamanlı sohbet destekli Django pazar yeri</li>
+        </ul>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-title"
+          ><a href="https://github.com/berkayaktunc/pysomware" target="_blank"
+            >Pysomware</a
+          ></span
+        >
+        <span class="cv-entry-date">07.2023</span>
+        <ul>
+          <li>Python ile dosya şifreleme aracı (Cryptography modülü)</li>
+        </ul>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-title"
+          ><a
+            href="https://github.com/berkayaktunc/Solana-Bootcamp-Final-Project"
+            target="_blank"
+            >Solana İnceleme DApp</a
+          ></span
+        >
+        <span class="cv-entry-date">02.2024</span>
+        <ul>
+          <li>Akıllı sözleşme tabanlı inceleme sistemi (Solana)</li>
+        </ul>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-title">Cycar — Paylaşımlı Yolculuk</span>
+        <span class="cv-entry-date">05.2019</span>
+        <ul>
+          <li>Python + ML + Flutter + Docker</li>
+        </ul>
+      </div>
+      <div class="section-title">Eğitim</div>
+      <div class="cv-entry">
+        <span class="cv-entry-title"
+          ><a href="https://www.metu.edu.tr/tr" target="_blank"
+            >Orta Doğu Teknik Üniversitesi (ODTÜ)</a
+          ></span
+        >
+        <span class="cv-entry-date">09.2024</span>
+        <p>Bilgisayar Mühendisliği — Lisans</p>
+        <ul>
+          <li>IEEE ODTÜ KKK — Algoritmalar & C atölyeleri</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
